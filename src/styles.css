@@ -50,3 +50,19 @@ footer {
     padding: 60px 0;
 
 }
+
+.grid-main-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 64px;
+    padding: 60px;
+}
+
+.main-section-image {
+    width: 100%;
+}
+
+.grid-3-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
