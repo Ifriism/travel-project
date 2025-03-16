@@ -187,3 +187,57 @@ section.secondary {
     display: grid;
     grid-template-columns: 1fr 2fr 2fr;
 }
+
+@media (max-width: 1200px) {
+
+    header h1 {
+        font-size: 50px;
+    }
+
+    header h2 {
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    header h3 {
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+
+    .grid, .card-header {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 32px;
+    }
+
+    main h2, gallery h2 {
+        letter-spacing: 3px;
+    }
+
+    main h3 {
+        font-size: 30px;
+    }
+
+    .grid-main-section, .secondary, .grid-footer {
+        text-align: left;
+        padding: 30px;
+    }
+
+    .card-header img {
+        display: none;
+    }
+
+    .gallery {
+        padding: 10px;
+    }
+
+    .gallery-grid {
+        margin-top: 12px;
+        margin-bottom: 50px;
+    }
+
+    .embed {
+        aspect-ratio: 16 / 9;
+      }
+
+} 
